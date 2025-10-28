@@ -76,3 +76,16 @@ footer {
     border-top: 1px solid #333; 
     padding-top: 20px;
 }
+
+footer a {
+  /* Usando a mesma cor de destaque da citação */
+  color: #ffffff; 
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Adiciona o sublinhado de volta quando o mouse passa por cima */
+footer a:hover {
+  /* Pode escurecer ou clarear um pouco no hover */
+  color: #7cb5e8; 
+  text-decoration: underline; 
+}
