@@ -2,8 +2,10 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: #fdfdfd;
-    color: #333;
+    /* COR DE FUNDO ESCURA (Quase preto) */
+    background-color: #1a1a1a; 
+    /* COR DO TEXTO CLARA (Quase branco) */
+    color: #e0e0e0;
     margin: 0;
     padding: 20px;
 }
@@ -18,7 +20,8 @@ body {
 /* Estilos de cabeçalho e texto */
 h1, h2 {
     font-weight: 600;
-    color: #111;
+    /* COR DO TÍTULO (Branco) */
+    color: #ffffff;
 }
 
 h1 {
@@ -38,7 +41,8 @@ footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9rem;
-    color: #888;
+    /* COR DO RODAPÉ (Cinza claro) */
+    color: #999;
 }
 
 /* --- Estilos do Easter Egg --- */
@@ -52,7 +56,8 @@ footer {
 
 /* 2. Uma leve mudança de cor ao passar o mouse */
 #main-title:hover {
-    color: #555;
+    /* Mantenha o contraste: um cinza claro ao passar o mouse */
+    color: #ccc;
 }
 
 /* 3. A classe 'hidden' que esconde o nosso elemento */
@@ -64,8 +69,10 @@ footer {
 #socrates-quote {
     text-align: center;
     font-size: 1.2rem;
-    color: #0056b3; /* Um azul filosófico */
+    /* COR DO DESTAQUE (Um azul filosófico que contrasta no escuro) */
+    color: #5b9bd5; 
     margin-top: 20px;
-    border-top: 1px solid #eee;
+    /* Borda clara para contrastar com o fundo escuro */
+    border-top: 1px solid #333; 
     padding-top: 20px;
 }
