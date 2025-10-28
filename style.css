@@ -1,0 +1,71 @@
+/* Configurações globais e reset simples */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Centraliza o conteúdo da página */
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de cabeçalho e texto */
+h1, h2 {
+    font-weight: 600;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p, li {
+    font-size: 1.1rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* --- Estilos do Easter Egg --- */
+
+/* 1. O título terá um cursor de "ponteiro" para sugerir que é clicável */
+#main-title {
+    cursor: pointer;
+    /* Adiciona uma transição suave */
+    transition: color 0.3s ease;
+}
+
+/* 2. Uma leve mudança de cor ao passar o mouse */
+#main-title:hover {
+    color: #555;
+}
+
+/* 3. A classe 'hidden' que esconde o nosso elemento */
+.hidden {
+    display: none;
+}
+
+/* 4. Estilo da citação quando ela aparecer */
+#socrates-quote {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0056b3; /* Um azul filosófico */
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
